@@ -1,0 +1,13 @@
+" Configuration minimale de Vim pour le TP
+syntax on
+filetype plugin indent on
+set number
+set expandtab
+set tabstop=4
+set shiftwidth=4
+set autoindent
+set hlsearch
+set incsearch
+set ruler
+set showmode
+set encoding=utf-8

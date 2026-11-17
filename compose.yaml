@@ -1,0 +1,26 @@
+# TP Scripting Bash - ESNL - Bachelor 3
+# Une machine Ubuntu 24.04 pour écrire et lancer des scripts Bash.
+#
+# Préparer (une seule fois) : echo "UID_HOTE=$(id -u)" > .env && echo "GID_HOTE=$(id -g)" >> .env
+# Construire et démarrer : docker compose up -d --build   (première fois)
+# Entrer                 : docker compose exec labo bash
+# Suspendre              : docker compose stop            (le travail est conservé)
+# Reprendre              : docker compose start
+# Les scripts sont enregistrés dans le dossier scripts/ du poste :
+# docker compose down ne les supprime pas.
+
+name: tp-bash
+
+services:
+  labo:
+    build:
+      context: .
+      args:
+        UID_HOTE: ${UID_HOTE:-1000}
+        GID_HOTE: ${GID_HOTE:-1000}
+    image: tp-bash:1.0
+    container_name: tp-bash
+    hostname: labo
+    init: true
+    volumes:
+      - ./scripts:/home/ubuntu/scripts
