@@ -6,11 +6,11 @@ ENV DEBIAN_FRONTEND=noninteractive \
     TZ=Europe/Paris \
     LANG=C.UTF-8
 
-# Outils du TP : éditeur, traitement de texte (gawk, sed, grep), recherche de fichiers, processus
+# Outils du TP : éditeurs (nano, et Vim pour l'annexe), traitement de texte (gawk, sed, grep), recherche de fichiers, processus
 RUN apt-get update \
  && apt-get install -y --no-install-recommends \
       bash-completion ca-certificates curl findutils gawk git grep less \
-      procps sed sudo tzdata vim \
+      nano procps sed sudo tzdata vim \
  && rm -rf /var/lib/apt/lists/*
 
 # L'utilisateur ubuntu existe déjà dans l'image (UID et GID 1000).
