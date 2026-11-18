@@ -2,11 +2,11 @@
 
 ## Identité
 
-Nom :
+Nom : POL
 
-Prénom :
+Prénom : Lou
 
-Lien du dépôt GitHub :
+Lien du dépôt GitHub : https://github.com/Xhealia/tp-bash.git
 
 ---
 
