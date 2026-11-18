@@ -39,26 +39,34 @@ origin  https://github.com/Xhealia/tp-bash.git (push)
 Résultat de `./init-projet.sh boutique` avec la saisie `5173` :
 
 ```text
-
+ubuntu@labo:~/scripts/partie2$ ./init-projet.sh boutique
+Port du front [5173] : 5173
+Clé d'API :
+Projet : boutique
+Front : http://localhost:5173
+API : http://localhost:5174
+Clé d'API : 4 caractères
 ```
 
 Contenu du fichier `boutique/README.md` créé par le script :
 
 ```text
-
+# boutique
+Date de création : 18/11/2026
+Machine : labo
 ```
 
 Question 1 : pourquoi faut-il écrire `./bonjour.sh` et pas simplement `bonjour.sh` pour lancer le script ?
 
-Réponse :
+Réponse :Parce qu'il faut indiquer à Bash le chemin du fichier
 
 Question 2 : quelle différence observe-t-on entre `echo "$nom_projet"` et `echo '$nom_projet'` ? Pourquoi ?
 
-Réponse :
+Réponse : avec des " la variable est remplacée par sa valeur mais avec ' on affiche juste $nom_projet
 
 Question 3 : expliquer avec ses propres mots ce que fait la ligne `port_api=$(( port_front + 1 ))`.
 
-Réponse :
+Réponse : on assigne à la variable "port_api" la somme de la variable "port_front" +1 (si port_front = 5 alors port_api = 6)
 
 ---
 
