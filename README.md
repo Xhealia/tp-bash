@@ -91,8 +91,3 @@ git push
 
 On transmet le lien de son dépôt au formateur, par mail ou par Classroom.
 
-Les mises à jour du TP se récupèrent depuis le dépôt du formateur :
-
-```bash
-git pull formateur main
-```
