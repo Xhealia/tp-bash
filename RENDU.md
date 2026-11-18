@@ -141,6 +141,22 @@ Réponse :
 
 ## Partie 6 – Projet final
 
+Résultat de `./maintenance.sh rapport` puis de `echo $?`, lancés dans la machine après `./reinitialiser.sh` :
+
+```text
+
+```
+
+Résultat de `./maintenance.sh nettoyage --simulation`, lancé dans la machine :
+
+```text
+
+```
+
+Question : pourquoi est-il prudent de prévoir un mode simulation dans un script qui supprime des fichiers ?
+
+Réponse :
+
 ---
 
 ## Partie 7 – Pour aller plus loin
