@@ -24,17 +24,17 @@ usage() {
 }
 
 sauvegarder() {
-    # À compléter à l'étape 2
+    # À compléter à l'étape 4
     info "Action sauvegarde : à compléter"
 }
 
 nettoyer() {
-    # À compléter à l'étape 3
+    # À compléter à l'étape 5
     info "Action nettoyage : à compléter"
 }
 
 afficher_rapport() {
-    # À compléter à l'étape 4
+    # À compléter à l'étape 6
     info "Action rapport : à compléter"
 }
 

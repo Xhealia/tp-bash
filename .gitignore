@@ -4,3 +4,7 @@
 # Fichiers créés par Windows lors de la copie de fichiers téléchargés vers WSL
 *:Zone.Identifier
 
+# Les archives du dossier `sauvegardes` et les fichiers temporaires ne sont pas publiés :
+scripts/projet-final/librairie/tmp/
+scripts/projet-final/librairie/cache/
+scripts/projet-final/sauvegardes/

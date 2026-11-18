@@ -61,6 +61,7 @@ tp-bash/
 ├── RENDU.md          Fichier de rendu à compléter à la fin de chaque partie
 ├── config/vimrc      Configuration minimale de l'éditeur Vim
 └── scripts/          Dossier de travail, partagé entre le poste et la machine
+    └── projet-final/ Base du projet final, utilisée en partie 6
 ```
 
 ## Démarrage rapide
@@ -78,6 +79,8 @@ docker compose exec labo bash
 
 Le fichier `.env` aligne l'identité de l'utilisateur de la machine sur celle du poste, pour que les fichiers du dossier `scripts/` puissent être modifiés des deux côtés. Il dépend de chaque poste et n'est pas publié.
 
+Avant le premier envoi, on relie le dossier à son propre dépôt GitHub, comme indiqué à l'étape 7 de la partie 1.
+
 ## Rendu du travail
 
 On publie son travail sur son propre dépôt GitHub public `tp-bash`, en suivant l'étape 7 de la partie 1. À la fin de chaque partie, on complète la section correspondante de `RENDU.md`, puis on publie depuis le poste :
@@ -90,4 +93,3 @@ git push
 ```
 
 On transmet le lien de son dépôt au formateur, par mail ou par Classroom.
-
