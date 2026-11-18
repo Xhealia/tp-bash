@@ -15,19 +15,21 @@ Lien du dépôt GitHub : https://github.com/Xhealia/tp-bash.git
 Résultat de la commande `docker compose ps`, lancée sur le poste :
 
 ```text
-
+NAME      IMAGE         COMMAND            SERVICE   CREATED          STATUS          PORTS
+tp-bash   tp-bash:1.0   "sleep infinity"   labo      24 minutes ago   Up 24 minutes
 ```
 
 Résultat de la commande `id`, lancée dans la machine :
 
 ```text
-
+uid=1000(xh3al) gid=1000(xh3al) groups=1000(xh3al),4(adm),24(cdrom),27(sudo),30(dip),46(plugdev),100(users),1001(docker)
 ```
 
 Résultat de la commande `git remote -v`, lancée sur le poste :
 
 ```text
-
+origin  https://github.com/Xhealia/tp-bash.git (fetch)
+origin  https://github.com/Xhealia/tp-bash.git (push)
 ```
 
 ---
